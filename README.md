@@ -131,55 +131,46 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 ## Requisitos do projeto
 
-A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido. Em particular, atente-se para os nomes de classes e ids que alguns elementos de seu projeto devem possuir. **Não troque ids por classes ou vice-versa**. O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
+### 1 - O seu site deve possuir um título com o nome do seu jogo
 
-Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução `1366 x 768` (1366 pixels de largura por 768 pixels de altura). Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração dessa resolução.
+- Esse título deve ser centralizado
+- O **id** do seu título deve ser `title`
 
-Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**. Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos. Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos.
+### 2 - A página deve possuir o texto RGB a ser adivinhado
 
-### 1 - A página deve possuir um título centralizado com o nome do seu jogo
-
-O título deverá conter o **id** `title`.
-
-### 2 - A página deve conter um texto centralizado com o ***RGB*** a ser adivinhado
-
-O texto deverá conter os três números das cores RGB a ser adivinhada, separados por vírgula e entre parênteses, conforme ilustrado na imagem acima. Exemplo: `(168, 34, 248)`.
-
-O elemento que contém o texto deverá conter o **id** `rgb-color`.
+- O texto RGB deve ser centralizado
+- O seu **id** deve ser `rgb-color`
+- Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
 
 ### 3 - A página deve conter 6 bolas como opção de cor de adivinhação
 
-Cada bola deverá conter a **classe** `ball`.
+- A **class** de todas as bolas deve ser `ball`
 
-### 4 - Ao clicar em uma bola, deve ser mostrado um texto que indica se a cor selecionada foi a correta
+### 4 - Ao clicar em uma bola, deve ser mostrado um texto
 
-Se a bola clicada for a correta, deve ser exibido o texto "Acertou!". Caso contrário, o texto deve ser "Errou! Tente novamente!".
+- Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
+- Se a bola clicada for a **correta**, deve ser exibido o texto `"Acertou!"`
+- Se a bola clicada for a **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
+- O seu **id** deve ser `answer`
 
-Quando o jogo é iniciado, o texto exibido deve ser "Escolha uma cor".
+### 5 - As cores das bolas devem ser geradas
 
-O elemento que conterá o texto deve ter o **id** `answer`.
+- Ao carregar a página, as cores devem ser geradas via JavaScript
 
-### 5 - As cores das bolas devem ser geradas aleatoriamente via JavaScript
+### 6 - Crie um botão para iniciar/reiniciar o jogo
 
-Isso vale tanto quando a página é carregada, quanto ao clicar no botão para reiniciar o jogo.
-
-### 6 - Deve haver um botão para reiniciar o jogo
-
-Ao clicar no botão, deve ser sorteada uma nova cor RGB e novas cores para as bolas, além de voltar os textos para a forma inicial.
-
-Este botão também poderá ser utilizado para iniciar um novo jogo.
-
-O botão deve ter o **id** `reset-game`.
+- O elemento deve ter o **id** `reset-game`.
+- Ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento `rgb-color` deve ser atualizado
+- Ao clicar no botão, o elemento `answer` deve voltar ao estado inicial, exibindo o texto `"Escolha uma cor"`
 
 ## BÔNUS
 
 ### 7 - Crie um placar que incremente 3 pontos para cada acerto no jogo
 
-No início do jogo, o placar deve ser zero. A cada acerto, o placar deve ser incrementado em 3 pontos.
-
-Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado para zero.
-
-O elemento que conterá o placar deve ter o **id** `score`.
+- O elemento deve ter o **id** `score`.
+- O valor inicial dele deve ser 0.
+- A cada acerto, é incrementado 3 pontos ao placar
+- Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado
 
 ---
 
