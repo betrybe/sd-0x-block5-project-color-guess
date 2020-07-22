@@ -4,7 +4,7 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
-### 🗒ANTES DE COMEÇAR A DESENVOLVER:
+### 🗒 ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
   * `git@github.com:betrybe/sd-0x-block5-project-color-guess.git`.
@@ -18,7 +18,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-project-color-guess.git`
+    * Exemplo: `git checkout -b joaozinho-project-color-guess`
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
@@ -55,7 +55,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
 
-Este _Pull Request_ deverá conter os arquivos `index.html` e `style.css`, que conterão seu código HTML e CSS, respectivamente.
+Este _Pull Request_ deverá conter os arquivos `index.html`, `style.css` e `script.js` que conterão seu código HTML, CSS e JavaScript, respectivamente.
 
 ## Prazo para entrega
 
