@@ -4,6 +4,76 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
+### 🗒ANTES DE COMEÇAR A DESENVOLVER:
+
+1. Clone o repositório
+  * `git@github.com:betrybe/sd-0x-block5-project-color-guess.git`.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd sd-0x-block5-project-color-guess`
+
+2. Crie uma branch a partir da branch `master`
+  * Verifique que você está na branch `master`
+    * Exemplo: `git branch`
+  * Se não estiver, mude para a branch `master`
+    * Exemplo: `git checkout master`
+  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
+    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
+    * Exemplo: `git checkout -b joaozinho-project-color-guess.git`
+
+3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
+  * Verifique que você está na raiz do projeto
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-0x-block5-project-color-guess**_
+  * Crie os arquivos index.html, style.css e script.js
+    * Exemplo: `touch index.html style.css script.js`
+
+4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+  * Verifique que as mudanças ainda não estão no _stage_
+    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
+  * Adicione o novo arquivo ao _stage_ do Git
+      * Exemplo:
+        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
+        * `git status` (devem aparecer listados os arquivos em verde)
+  * Faça o `commit` inicial
+      * Exemplo:
+        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
+        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+
+5. Adicione a sua branch com o novo `commit` ao repositório remoto
+  * Usando o exemplo anterior: `git push -u origin joaozinho-project-color-guess`
+
+6. Crie um novo `Pull Request` _(PR)_
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-block5-project-color-guess/pulls)
+  * Clique no botão verde _"New pull request"_
+  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+  * Clique no botão verde _"Create pull request"_
+  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
+  * **Não se preocupe em preencher mais nada por enquanto!**
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-block5-project-color-guess/pulls) e confira que o seu _Pull Request_ está criado
+---
+
+# Entregáveis
+
+Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
+
+Este _Pull Request_ deverá conter os arquivos `index.html` e `style.css`, que conterão seu código HTML e CSS, respectivamente.
+
+## Prazo para entrega
+
+O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
+
+**Exemplo:** Se o último dia de projeto aconteceu na **quarta-feira, dia 17 de junho**, seu prazo final de entrega será na **quarta-feira 24 de junho** às **14 horas**.
+
+Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso o prazo de **7 dias** é contado à partir do último dia de projeto.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+
+---
+
+
 ## O que deverá ser desenvolvido
 
 Neste projeto, você implementará um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, você vai permitir que quem usa consiga pintar o que quiser no quadro!
