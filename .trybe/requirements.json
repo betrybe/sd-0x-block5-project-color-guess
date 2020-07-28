@@ -1,6 +1,10 @@
 {
     "requirements": [
         {
+            "description": "O seu site deve ser completamente centralizado",
+            "bonus": false
+        },
+        {
             "description": "O seu site deve possuir um título com o nome do seu jogo",
             "bonus": false
         },
