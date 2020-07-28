@@ -129,38 +129,32 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 ## Requisitos do projeto
 
-### 1 - O seu site deve ser completamente centralizado
-- O `body` deve ter todos os seus elementos flex
-- O `body` deve ter a propriedade `flex-direction` como `column`
-- O `body` deve ter o alinhamento de texto centralizado
-- O `body` deve ter o alinhamento de itens centralizado
-
-### 2 - O seu site deve possuir um título com o nome do seu jogo
+### 1 - O seu site deve possuir um título com o nome do seu jogo
 
 - O **id** do seu título deve ser `title`
 
-### 3 - A página deve possuir o texto RGB a ser adivinhado
+### 2 - A página deve possuir o texto RGB a ser adivinhado
 
 - O seu **id** deve ser `rgb-color`
 - Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
 
-### 4 - A página deve conter opções de cores para serem adivinhadas
+### 3 - A página deve conter opções de cores para serem adivinhadas
 
 - Deve conter 6 bolas como opção de cor de adivinhação
 - A **class** de todas as bolas deve ser `ball`
 
-### 5 - Ao clicar em uma bola, deve ser mostrado um texto
+### 4 - Ao clicar em uma bola, deve ser mostrado um texto
 
 - Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
 - Se a bola clicada for a **correta**, deve ser exibido o texto `"Acertou!"`
 - Se a bola clicada for a **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
 - O seu **id** deve ser `answer`
 
-### 6 - As cores das bolas devem ser geradas
+### 5 - As cores das bolas devem ser geradas
 
 - Ao carregar a página, as cores devem ser geradas via JavaScript
 
-### 7 - Crie um botão para iniciar/reiniciar o jogo
+### 6 - Crie um botão para iniciar/reiniciar o jogo
 
 - O elemento deve ter o **id** `reset-game`.
 - Ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento `rgb-color` deve ser atualizado
@@ -168,12 +162,18 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 ## BÔNUS
 
-### 8 - Crie um placar que incremente 3 pontos para cada acerto no jogo
+### 7 - Crie um placar que incremente 3 pontos para cada acerto no jogo
 
 - O elemento deve ter o **id** `score`.
 - O valor inicial dele deve ser 0.
 - A cada acerto, é incrementado 3 pontos ao placar
 - Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado
+
+### 8 - O seu site deve ser completamente centralizado
+- O `body` deve ter todos os seus elementos flex
+- O `body` deve ter a propriedade `flex-direction` como `column`
+- O `body` deve ter o alinhamento de texto centralizado
+- O `body` deve ter o alinhamento de itens centralizado
 
 ---
 

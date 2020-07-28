@@ -1,10 +1,6 @@
 {
     "requirements": [
         {
-            "description": "O seu site deve ser completamente centralizado",
-            "bonus": false
-        },
-        {
             "description": "O seu site deve possuir um título com o nome do seu jogo",
             "bonus": false
         },
@@ -30,6 +26,10 @@
         },
         {
             "description": "Crie um placar que incremente 3 pontos para cada acerto no jogo",
+            "bonus": true
+        },
+        {
+            "description": "O seu site deve ser completamente centralizado",
             "bonus": true
         }
     ]
