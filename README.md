@@ -169,12 +169,6 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 - A cada acerto, é incrementado 3 pontos ao placar
 - Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado
 
-### 8 - O seu site deve ser completamente centralizado
-- O `body` deve ter todos os seus elementos flex
-- O `body` deve ter a propriedade `flex-direction` como `column`
-- O `body` deve ter o alinhamento de texto centralizado
-- O `body` deve ter o alinhamento de itens centralizado
-
 ---
 
 ### DURANTE O DESENVOLVIMENTO

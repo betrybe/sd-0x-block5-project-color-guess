@@ -27,10 +27,6 @@
         {
             "description": "Crie um placar que incremente 3 pontos para cada acerto no jogo",
             "bonus": true
-        },
-        {
-            "description": "O seu site deve ser completamente centralizado",
-            "bonus": true
         }
     ]
 }
