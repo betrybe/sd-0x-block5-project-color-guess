@@ -143,12 +143,12 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 ### 3 - A página deve possuir o texto RGB a ser adivinhado
 
-- O texto RGB deve ser centralizado
 - O seu **id** deve ser `rgb-color`
 - Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
 
-### 4 - A página deve conter 6 bolas como opção de cor de adivinhação
+### 4 - A página deve conter opções de cores para serem adivinhadas
 
+- Deve conter 6 bolas como opção de cor de adivinhação
 - A **class** de todas as bolas deve ser `ball`
 
 ### 5 - Ao clicar em uma bola, deve ser mostrado um texto

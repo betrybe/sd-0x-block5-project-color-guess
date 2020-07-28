@@ -13,7 +13,7 @@
             "bonus": false
         },
         {
-            "description": "A página deve conter 6 bolas como opção de cor de adivinhação",
+            "description": "A página deve conter opções de cores para serem adivinhadas",
             "bonus": false
         },
         {
