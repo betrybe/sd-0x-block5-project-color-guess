@@ -82,8 +82,6 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
     class="rounded mx-auto d-block"
     src="/guess-the-color.gif"
     alt="Gif exibindo um jogo de adivinhar a cor"
-    width="500px"
-    height="500px"
   >
 </p>
 
