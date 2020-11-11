@@ -133,30 +133,30 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 - O **id** do seu título deve ser `title`
 
-### 2 - A página deve possuir o texto RGB a ser adivinhado
+### 2 - A página deve possuir o texto com o código RGB a ser adivinhado
 
 - O seu **id** deve ser `rgb-color`
 - Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
 
 ### 3 - A página deve conter opções de cores para serem adivinhadas
 
-- Deve conter 6 bolas como opção de cor de adivinhação
-- A **class** de todas as bolas deve ser `ball`
+- Deve conter 6 circulos como opção de cor de adivinhação
+- A **class** de todos os circulos deve ser `ball`
 
-### 4 - Ao clicar em uma bola, deve ser mostrado um texto
+### 4 - As cores das bolas devem ser geradas dinâmicamente
 
+- Ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript
+
+### 5 - Ao clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+
+- O seu **id** do elemento deve ser `answer`
 - Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
-- Se a bola clicada for a **correta**, deve ser exibido o texto `"Acertou!"`
-- Se a bola clicada for a **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
-- O seu **id** deve ser `answer`
-
-### 5 - As cores das bolas devem ser geradas
-
-- Ao carregar a página, as cores devem ser geradas via JavaScript
+- Se o circulo colorido for o **correto**, deve ser exibido o texto `"Acertou!"`
+- Se o circulo colorido for o **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
 
 ### 6 - Crie um botão para iniciar/reiniciar o jogo
 
-- O elemento deve ter o **id** `reset-game`.
+- O botão deve ter o **id** `reset-game`.
 - Ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento `rgb-color` deve ser atualizado
 - Ao clicar no botão, o elemento `answer` deve voltar ao estado inicial, exibindo o texto `"Escolha uma cor"`
 
