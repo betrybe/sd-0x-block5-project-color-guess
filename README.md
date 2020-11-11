@@ -143,16 +143,16 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 - Deve conter 6 circulos como opção de cor de adivinhação
 - A **class** de todos os circulos deve ser `ball`
 
-### 4 - Ao clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+### 4 - As cores das bolas devem ser geradas dinâmicamente
+
+- Ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript
+
+### 5 - Ao clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
 
 - O seu **id** do elemento deve ser `answer`
 - Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
 - Se o circulo colorido for o **correto**, deve ser exibido o texto `"Acertou!"`
 - Se o circulo colorido for o **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
-
-### 5 - As cores das bolas devem ser geradas dinâmicamente
-
-- Ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript
 
 ### 6 - Crie um botão para iniciar/reiniciar o jogo
 
