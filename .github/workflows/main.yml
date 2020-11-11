@@ -12,7 +12,7 @@ jobs:
         id: cypress
         uses: betrybe/cypress-evaluator-action@v2
         with:
-          repository-test-name: 'betrybe/sd-0x-block5-project-color-guess-tests'
+          repository-test-name: 'betrybe/sd-0x-project-color-guess-tests'
           repository-test-branch: 'master'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
