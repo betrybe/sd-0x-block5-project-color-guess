@@ -282,19 +282,19 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 **O que será verificado:**
 
-- Será verificado que ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript.
+- Será verificado que ao carregar a página, as cores de cada um dos 6 circulos coloridos devem ser geradas via JavaScript.
 
 ### 5 - Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
 
 **O que será verificado:**
 
-- Será verificado que o seu **id** do elemento deve ser `answer`;
+- Será verificado que o **id** do elemento deve ser `answer`;
 
 - Será verificado que quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`;
 
 - Será verificado se o circulo colorido for o **correto**, deve ser exibido o texto "Acertou!";
 
-- Será verificado se o circulo colorido for o **incorreta**, deve ser exibido o texto "Errou! Tente novamente!".
+- Será verificado se o circulo colorido for o **incorreto**, deve ser exibido o texto "Errou! Tente novamente!".
 
 ### 6 - Crie um botão para iniciar/reiniciar o jogo
 
