@@ -270,7 +270,7 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 - Será verificado se o texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`.
 
-### 3 - Adicione a página opções de cores para serem adivinhadas
+### 3 - Adicione à página opções de cores para serem adivinhadas
 
 **O que será verificado:**
 
